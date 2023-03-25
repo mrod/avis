@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/create_poll_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create a New Poll"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/poll_question_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the poll question"/>
+
+    <EditText
+        android:id="@+id/option1_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Option 1"/>
+
+    <EditText
+        android:id="@+id/option2_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Option 2"/>
+
+    <EditText
+        android:id="@+id/option3_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Option 3"/>
+
+    <EditText
+        android:id="@+id/option4_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Option 4"/>
+
+    <Button
+        android:id="@+id/create_poll_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Poll"/>
+
+</LinearLayout>

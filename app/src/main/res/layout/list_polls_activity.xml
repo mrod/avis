@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_polls_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/list_polls_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Available Polls"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/polls_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/list_polls_title"
+        android:paddingTop="16dp"/>
+
+    <TextView
+        android:id="@+id/poll_question_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Poll Question"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:background="@color/black"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>
